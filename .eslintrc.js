@@ -17,6 +17,12 @@ module.exports = {
 
     "plugins": ["@typescript-eslint/eslint-plugin", "eslint-plugin-react"],
 
+    "settings": {
+        "react": {
+        "version": "detect"
+        }
+    },
+
     "parserOptions": {
         "ecmaVersion": 2018,
         "sourceType": "module",
